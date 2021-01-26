@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="21.031">
+<testcase classname="Youtubeda videonun izlenme sayisini bulma" name="TC02_kullanici youtubevideoyu acar ve izlenme sayisini alir" time="20.788">
+<system-out><![CDATA[Given kullanici youtubea gider..............................................passed
+And kullanici techproed aramasi yapar.......................................passed
+And kullanici bir videoya tiklar............................................passed
+Then kullanici videonun bilgilerini alir....................................passed
+]]></system-out>
+</testcase>
+</testsuite>

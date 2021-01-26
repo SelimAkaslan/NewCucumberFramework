@@ -1,0 +1,108 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-08-21T16:52:24.318Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "TC02_kullanici youtubevideoyu acar ve izlenme sayisini alir",
+        "description": "",
+        "id": "youtubeda-videonun-izlenme-sayisini-bulma;tc02-kullanici-youtubevideoyu-acar-ve-izlenme-sayisini-alir",
+        "after": [
+          {
+            "result": {
+              "duration": 1318000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12565000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "kullanici youtubea gider",
+            "match": {
+              "location": "stepdefinitions.YoutubeVideoBilgileriStepDefinitions.kullanici_youtubea_gider()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4844000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "kullanici techproed aramasi yapar",
+            "match": {
+              "location": "stepdefinitions.YoutubeVideoBilgileriStepDefinitions.kullanici_techproed_aramasi_yapar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 751000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "kullanici bir videoya tiklar",
+            "match": {
+              "location": "stepdefinitions.YoutubeVideoBilgileriStepDefinitions.kullanici_bir_videoya_tiklar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1100000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "kullanici videonun bilgilerini alir",
+            "match": {
+              "location": "stepdefinitions.YoutubeVideoBilgileriStepDefinitions.kullanici_videonun_bilgilerini_alir()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@youtube"
+          }
+        ]
+      }
+    ],
+    "name": "Youtubeda videonun izlenme sayisini bulma",
+    "description": "",
+    "id": "youtubeda-videonun-izlenme-sayisini-bulma",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/youtube.feature",
+    "tags": [
+      {
+        "name": "@youtube",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
